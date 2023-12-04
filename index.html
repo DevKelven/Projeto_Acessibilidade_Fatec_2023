@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/meulogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Kelven</h1>
+        <nav>
+            <a href="#apresentacao">
+                <li>Inicio</li>
+            </a><a href="#sobremim">
+                <li>Sobre mim</li>
+            </a>
+        </nav>
+    </header>
+    <div id="containergeral">
+    <main>
+        <div id="container">
+        <section id="apresentacao">      
+            <h5 class="saudacao">🖐Saudações!</h5>  
+            <h1 class="nome">Kelven Silva</h1>
+            <p>Front-end Developer</p>
+            <div class="icons">
+                <a href="https://github.com/KelvenKel"><img src="img/github.png" alt="icone github"></a>
+                <a href="https://www.linkedin.com/in/kelven-silva-09051b258/"><img src="img/linkedin.png" alt="icone linkedin"></a>
+                <a href="https://www.instagram.com/kelven.sk8/"><img src="img/insta.png" alt="icone Instagram"></a>
+            </div>
+        </section>
+        <section id="imagem">
+            <img src="img/eu.jpg" alt="Imagem do Desenvolvedor">
+        </section>
+    </div>
+    <span>Site feito com..</span>
+    <div id="container2">
+        <section id="informacoes">
+            <div class="card">
+                <div class="card2">
+                    <img src="img/html.png" alt="logo HTML5">
+                        <h1>HTML5</h1>
+                </div>
+
+              </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/css.png" alt="logo CSS3">
+                        <h1>CSS3</h1>
+                </div>
+
+              </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/js.png" alt="logo Javascript">
+                        <h1>JS</h1>
+                </div>
+              </div>
+        </section>
+    </div>
+    <hr>
+    <section id="sobremim">
+        <div>
+            <img src="img/eu3.jpg" alt="imagem do Desenvolvedor">
+        </div>
+        <div class="sobre">
+            <div id="zoom">
+                <h4>Zoom</h4>
+                <div class="botoes">
+                <button id="increaseBtn">+</button>
+                <button id="decreaseBtn">-</button>
+                </div>
+            </div> 
+            <h1>Sobre mim</h1>
+            <p class="text">Me Chamo Kelven Allan Teixeira Da Silva mas conhecido como "Kel".</p>
+            <p class="text">Sou um Estudante Fatecano, estou o curso Sistemas para internet, 2° Semestre periodo de Manhã, nesse Curso irei me aprofundar para conseguir meu Primeiro trabalho como Desenvolvedor Front-end.</p>
+            <p class="text">finalizei o Ensino médio na Silveira Coelho, o Curso Tecnico da Etec com o curso Desenvolvimento de Sistemas e também a finalização do Curso de Jogos 2D e 3D na NetBrasil.</p>
+            <p class="text">Estudo Programação a 2 Anos e tive essa paixão de criar coisas inesxistentes e dar vida a algo que não existe!</p>
+        </div>
+    </section>
+
+    </main>
+</div>
+    <!--VLIBRAS-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+     
+
+</body>
+  <script src="script.js"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget({
+            rootPah: '/app',
+            personalization: 'https://vlibras.gov.br/config/default_logo.json',
+            opacity: 0.5,
+            position: 'R',
+            avatar: 'hosana',
+        });
+      </script>
+</html>
